@@ -1,0 +1,129 @@
+body{
+    background-color: f4f4f4;
+    color: #555;
+    font-family:arial, helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  letter-spacing: 0.03em;
+}
+
+#main-header{
+  background-color: #4EF2A4;
+  color: #fff;
+  text-align: center;
+}
+#main-header h1{
+  font-size:40px;
+  margin-bottom: 10px;
+}
+.logo{
+  margin-bottom: -30px;
+  margin-top: 12px;
+}
+#main-header img{
+  height:70px;
+}
+
+#navbar{
+  background-color: #4E8EF2;
+  color:#fff;
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+  text-align: center;
+}
+
+#navbar li{
+  display: inline-block;
+
+}
+
+#navbar a{
+  color: white;
+  text-decoration: none;
+  font-size:20px;
+  padding-right: 70px;
+}
+
+#showcase{
+  border: 1px #9DCCF6 solid;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#showcase h3{
+  color:#F64596
+}
+.container h2 {
+  color:#F64596
+}
+.desni{
+  float:right;
+  width:25%;
+}
+.levi{
+  float:left;
+  width:70%;
+}
+.sidebar{
+  background-color: #4E8EF2;
+  color:white;
+  border: 5px #4EF2A4 solid;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.desni h3{
+  color:#F64596
+}
+
+.footer{
+  background-color:#F64596;
+  margin: 0px;
+  margin-top: 20px;
+  padding: 5px;
+  color:white;
+}
+
+.footer-photo img{
+    height:20px;
+    padding: 10px 10px 10px 0px;
+}
+
+.side-by-side1{
+  float:left;
+}
+
+.side-by-side2{
+  float:left;
+}
+
+.telefon{
+display: flex;
+}
+
+.blok-informacije{
+  padding-left: 80px;
+}
+
+.copy p{
+  text-align:center;
+}
+
+@media(max-width:500px)
+{
+  #navbar a{
+    padding-right: 10px;
+  }
+}
