@@ -1,93 +1,113 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="../style.css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>moj-sajt/Blog</title>
   </head>
   <body>
-    <div class="LogoSajt">
-      <header>
-        <img src="C:\Users\nikol\OneDrive\Desktop\sajt\logo.png" alt="logo">
-        <h1 style="text-align:center">Ime sajta</h1>
-      </header>
-      <nav>
+    <header id="main-header">
+      <div class="container">
+        <div class="logo">
+          <img src="..\logo.png" alt="logo">
+        </div>
+        <h1>BLOGOVANJE</h1>
+      </div>
+    </header>
+
+    <nav id="navbar">
+      <div class="container">
         <ul>
           <li><a href="C:\Users\nikol\OneDrive\Desktop\sajt\PrviSajt.html">Pocetna</a></li>
           <li><a href="C:\Users\nikol\OneDrive\Desktop\sajt\nav\Blog.html">Okaci blog</a></li>
           <li><a href="C:\Users\nikol\OneDrive\Desktop\sajt\nav\Registracija.html">Registracija</a></li>
-          </ul>
-      </nav>
-    </div>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="Udaljiti od nava i desnog bloga">
-        <div class="levi blok">
-          <div class="samo blog">
-            <div class="naslov">
-              <h3>Nalsov bloga</h3>
-              <input type="text" name="naslov-blog">
-            </div>
-            <div class="Tekst-bloga">
-              <h3>Tekst</h3>
-              <textarea name="tekst-bloga" rows="10" cols="80"></textarea>
-            </div>
-            <div class="dugme-postavi">
-              <input type="submit" name="Postavi-dugme" value="Postavi">
+    <div class="container">
+
+      <div class="blokovi">
+
+        <div class="levi-blok">
+          <div class="textarea">
+          <h3 style="color:white;">Nalsov bloga</h3>
+          <input type="text" id="naslov-input">
+          <h3 style="color:white;">Tekst</h3>
+            <textarea></textarea>
+            <div class="postavi-btn">
+              <input type="submit" id="Postavi-dugme" value="Postavi">
             </div>
           </div>
-        </div>
-    </div>
-    <div class="densni-blok">
+          </div>
+      <div class="densni-blok">
       <ul>
-        <li class="widget">
-          <h3 class="widet-title">Pravila pisanja bloga</h3>
-          <ul>
-          <li>Saglasan si da definicija postaje vlasništvo sajta i da nemaš pravo da
-            zahtevaš njeno uklanjanje. Naravno, prilikom svakog prikazivanja definicije
-             na sajtu, biće navedeno tvoje ime.</li>
-             <li>Saglasan si da moderator ima pravo da obriše tvoju definiciju ako
-               proceni da je plagijat, uvredljiva ili nedovoljno kvalitetna da
-               bi se nalazila na sajtu.</li>
-          </ul>
-        </li>
-        <li class="widge">
-          <h3 class="widet-title">Pravila pisanja bloga</h3>
-          <ul>
-            <li>Obavezna je upotreba naših slova (š, ć, č, ...) Zabranjena je
-              upotreba "ošišane" latinice ili dvoslovne zamene za naša slova
-              "sh", "ch", "tj" i sl.</li>
-              <li>Zabranjeno je pisanje čitavog
-                izraza, definicije ili primera velikim slovima (caps lock).</li>
-                <li>Zabranjeno je ubacivanje smajlija.</li>
-                <li>Posle tačke, zareza, znaka pitanja i sl. obavezno ide razmak (jedan "space").</li>
+            <li class="widget">
+              <h3 class="widet-title">Pravila pisanja bloga</h3>
+              <ul>
+              <li>Saglasan si da definicija postaje vlasništvo sajta i da nemaš pravo da
+                zahtevaš njeno uklanjanje. Naravno, prilikom svakog prikazivanja definicije
+                 na sajtu, biće navedeno tvoje ime.</li>
+              <li>Saglasan si da moderator ima pravo da obriše tvoju definiciju ako
+                   proceni da je plagijat, uvredljiva ili nedovoljno kvalitetna da
+                   bi se nalazila na sajtu.</li>
               </ul>
             </li>
-            <li class="widet">Primer blog-sajtova</li>
+          <li class="widget">
+            <h3 class="widet-title">Pravila pisanja bloga</h3>
             <ul>
-              <li><a target="_blank" href="https://vukajlija.com/">Vukajlija</a></li>
-              <li><a target="_blank" href="https://www.ana.rs/forum/">Ana.rs</a></li>
-            </ul>
-        </ul>
+              <li>Obavezna je upotreba naših slova (š, ć, č, ...) Zabranjena je
+                upotreba "ošišane" latinice ili dvoslovne zamene za naša slova
+                "sh", "ch", "tj" i sl.</li>
+                <li>Zabranjeno je pisanje čitavog
+                  izraza, definicije ili primera velikim slovima (caps lock).</li>
+                  <li>Zabranjeno je ubacivanje smajlija.</li>
+                  <li>Posle tačke, zareza, znaka pitanja i sl. obavezno ide razmak (jedan "space").</li>
+                </ul>
+              </li>
+              <li class="widget">
+                <h3 class="widet-title">Primer blog-sajtova</h3>
+                <ul>
+                  <li><a target="_blank" href="https://vukajlija.com/">Vukajlija</a></li>
+                  <li><a target="_blank" href="https://www.ana.rs/forum/">Ana.rs</a></li>
+                </ul>
+              </li>
+          </ul>
+          </div>
+
+        </div>
+
+      </div>
   </body>
   <footer>
     <div class="footer">
-      <div class="INFO-okvir1">
-        <div class="INFO-okvir2">
+      <div class="blok-informacije">
           <div class="INFO">
             <p>INFORMACIJE</p>
           </div>
-          <div class="telefon">
-            <img src="C:\Users\nikol\OneDrive\Desktop\sajt\nav\FON.png" alt="telefon">
-            <p>060/4426-445</p>
-          </div>
-          <div class="mail">
-            <img src="C:\Users\nikol\OneDrive\Desktop\sajt\nav\MAIL.png" alt="mail">
-            <p>nikolaskadric.ns@gmail.com</p>
-          </div>
-        </div>
-      </div>
+          <div class="footer-photo">
+              <div class="telefon">
+                <div class="side-by-side1">
+                  <img src="C:\Users\nikol\OneDrive\Desktop\sajt\nav\FON.png" alt="telefon">
+                </div>
+                <div class="side-by-side1">
+                  <p>060/4426-445</p>
+              </div>
+            </div>
+             <div class="mail">
+              <div class="side-by-side2">
+                <img src="C:\Users\nikol\OneDrive\Desktop\sajt\nav\MAIL.png" alt="mail">
+              </div>
+              <div class="side-by-side2">
+                <p>nikolaskadric.ns@gmail.com</p>
+              </div>
+            </div>
+          </div><!--footer-photo-->
+        </div><br><br><br>
       <div class="copy">
-        <p style="text-align:center"><small>&copy Copyright 2020 moj-sajt</small></p>
-      </div>
+        <p><small>&copy Copyright 2020 moj-sajt</small></p>
+      </div><br>
     </div>
   </footer>
 </html>

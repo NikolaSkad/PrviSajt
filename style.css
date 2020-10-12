@@ -101,6 +101,8 @@ body{
     padding: 10px 10px 10px 0px;
 }
 
+
+
 .side-by-side1{
   float:left;
 }
@@ -121,9 +123,98 @@ display: flex;
   text-align:center;
 }
 
-@media(max-width:500px)
+@media screen and (max-width:650px)
 {
   #navbar a{
     padding-right: 10px;
   }
+
+
 }
+/*-----------------------Blog.html-------------------------*/
+
+.levi-blok
+{
+float: left;
+width:60%;
+background-color: #4EF2A4;
+border-radius: 15px;
+margin-top: 50px;
+padding-bottom: 20px;
+}
+.levi-blok textarea{
+  height: 400px;
+  width:99%;
+  border-radius: 15px;
+  border-color: #4EF2A4;
+  border-width: medium;
+}
+.textarea
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#naslov-input{
+border-radius: 15px;
+border-color: #4EF2A4;
+border-width:inherit;
+}
+
+#Postavi-dugme{
+margin-top: 10px;
+background-color: #4E8EF2;
+border-radius: 15px;
+border-width: inherit;
+padding: 7.5px 16px;
+}
+
+
+
+.densni-blok{
+float: right;
+width: 40%;
+padding: 0px;
+}
+
+.widet-title{
+  color: #F64596;
+}
+
+.widget
+{
+  list-style: none;
+}
+.widget ul{
+  padding: 0px;
+}
+.widget li
+{
+  list-style: none;
+  background-color: #4E8EF2;
+  color:white;
+  border-left: 5px #4EF2A4 solid;
+  border-right: 5px #4EF2A4 solid;
+  border-top: 5px #4EF2A4 solid;
+  padding: 10px;
+  display: block;
+}
+.widget li:first-child
+{
+    border-bottom: none;
+    border-radius: 15px 15px 0px 0px;
+}
+.widget li:last-child
+{
+    border-radius: 0px 0px 15px 15px;
+    border-bottom: 5px #4EF2A4 solid;
+}
+
+.widget ul>li>a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*/* WARNING: nzm kako da napravim media query da prebaci }
+desni blok ispod levog i da da ih rasiri preko ekrana.*/*/
